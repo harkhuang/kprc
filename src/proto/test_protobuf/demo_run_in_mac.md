@@ -19,14 +19,13 @@ hk-mac:mytest hk$ tree
 |____include
 |____dst
 | |____write
-| |____addressbook.pb.h //protoc????
-| |____bj_apue_k        //????  ????
-| |____read              // read ????
-| |____addressbook.pb.cc   //proto?????
-| |____writeMsg.cc         // ?protobuf
-| |____readMsg.cc        //  ?protobuf
+| |____addressbook.pb.h //protoc自动生成
+| |____bj_apue_k        //数据文件
+| |____addressbook.pb.cc   //protoc自动生成
+| |____writeMsg.cc         //write protobuf
+| |____readMsg.cc        //  read protobuf
 |____src
-| |____addressbook.proto  //????
+| |____addressbook.proto  //定义protobuf数据结构
 
 ```
 
